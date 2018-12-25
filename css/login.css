@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.login_top{
+    margin-bottom: 43px;
+}
+.login_middle{
+    background: white;
+}
+.login_top img{
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 28px;
+}
+.login_top span>a{
+    color:  #666;
+    font-size:20px;
+    text-decoration: none;
+}
+.login_middle>img{
+    vertical-align: top;
+}
+.login_middle>div{
+    display: inline-block;
+
+}
+.login_middle_inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.login_middle_right{
+    text-align: center;
+    margin:60px 15px;
+}
+.login_middle_inner>div{
+    color: #666;
+    margin-right:75px;
+}
+.login_middle_inner>span{
+    font-size: 8px;
+    color: rgb(51, 51, 51);
+}
+.login_middle_inner span>a{
+    text-decoration: none;
+    color: #ffb000;
+}
+.login_middle_right tr td input{
+    width: 245px;
+    height: 35px;
+    margin-bottom: 35px;
+    font-size: 8px;
+    background: url(../img/login/login_name.png) no-repeat;
+    border: 1px solid lightgray;
+    padding-left: 35px;
+}
+.login_middle_right tr:nth-child(2) td input{
+    background: url(../img/login/login_pwd.png) no-repeat;
+}
+.login_middle_right tr:nth-child(3) td>a{
+    display: block;
+    width: 280px;
+    height: 38px;
+    line-height: 38px;
+    background:  #ffb000;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+.login_middle_right tr:nth-child(4) td>a{
+    float: right;
+    text-decoration: none;
+    font-size: 5px;
+    color:  #666;
+    margin-top: 10px;
+}
+.login_buttom{
+    text-align: center;
+    color: #668686;
+    font-size: 2px;
+    margin-top: 25px;
+}

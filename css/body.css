@@ -1,0 +1,41 @@
+/*--logo--*/
+
+.logo_inner{
+  margin:0 auto;
+  width:1200px;
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+}
+.logo{
+  border-bottom:2px solid orange;
+}
+.logo ul li input{
+  width:375px;
+  height:36px;
+  border: 2px solid orange;
+  vertical-align:bottom;
+  padding-left:8px;
+}
+.logo_btn{
+  width:90px;
+  height:40px;
+  border:none;
+  background:orange;
+  text-align:center;
+  font-size:18px;
+  color:#8c8c8c;
+  cursor: pointer;
+}
+.logo_inner li a{
+  text-decoration:none;
+  margin-right:6px;
+}
+.logo_inner li a:hover{
+  color:#2196F3;
+}
+/*商品分类*/
+.food_class{
+  width: 1200px;
+  margin: 0 auto;
+}
