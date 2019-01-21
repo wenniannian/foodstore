@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#right_bar{
+    position:fixed;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 100%;
+    background:#363636;
+    z-index: 50;
+}
+#right_bar ul{
+    list-style: none;
+    position: absolute;
+    top: 198px;
+}
+#right_bar ul li{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 8px ;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+#right_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#right_bar ul li .car{
+    display: block;
+    border-radius: 50%;
+    background: red;
+    margin-top: 5px;
+}
+
+/*left-bar*/
+#left_bar{
+    position: fixed;
+    top:165px;
+    left:0;
+    z-index: 50;
+}
+#left_bar ul{
+    list-style: none;
+    background:#363636 ;
+}
+#left_bar ul li{
+    width: 28px;
+    text-align: center;
+    padding:3px 12px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+#left_bar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#left_bar ul li:hover{
+    background: red;
+}
